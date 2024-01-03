@@ -266,7 +266,7 @@ body {
     font-weight: bold;
 }
 
-.container .active .login-container {
+.login-container.active {
     top: 20%;
 }
 
