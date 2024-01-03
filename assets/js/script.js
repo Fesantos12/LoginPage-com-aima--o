@@ -1,9 +1,12 @@
 const Login = document.querySelector('.login-container h2')
-const Container = document.querySelector('container');
-const signIn = document.getElementById('signup');
+const LoginContainer = document.querySelector('.login-container');
+const signUp = document.querySelector('.signup-container h1');
+
 
 Login.addEventListener('click', () => {
-    // LoginContainer.classList.add('active');
-    Container.classList.add('.active');
-    console.log('ativou');
+    LoginContainer.classList.add('active');
+});
+
+signUp.addEventListener('click', () => {
+    LoginContainer.classList.remove('active');
 });
