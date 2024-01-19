@@ -269,6 +269,11 @@ body {
     top: 20%;
 }
 
+.nameVazio {
+    border: 1px solid red;
+    color: red;
+}
+
 /* .login-container .active  {
     top: 20%;
 } */
